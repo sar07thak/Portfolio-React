@@ -5,6 +5,7 @@ import {  NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { gsap } from 'gsap'
 import { useRef } from 'react'
+import { useGSAP } from '@gsap/react';
 
 
 export const Header = () => {
@@ -27,6 +28,7 @@ export const Header = () => {
         });
     }
 
+    
    
   return (
     <>
@@ -43,9 +45,9 @@ export const Header = () => {
 
     {/* for small screen */}
 
-    <div className={`absolute top-0 right-0 px-5 py-14  text-white w-full h-full rounded-lg  flex flex-col justify-center bg-[#201c25] ${visible ? "block" : "hidden"}`}>
+    <div className={`absolute top-0 right-0 px-5 py-14 z-10  text-white w-full h-full   flex flex-col justify-center bg-[#201c25] ${visible ? "block" : "hidden"}`}>
       
-            <MdClose  className='absolute top-4 right-4 text-3xl' onClick={()=>{setVisible(!visible)}}  />
+            <MdClose  className=' absolute top-4 right-4 text-3xl' onClick={()=>{setVisible(!visible)}}  />
   
         <div className='menu-container flex flex-col  gap-4'>
             <NavLink to='/' className='nav-link text-[16px] shadow-sm shadow-white  p-3 rounded-xl hover:bg-[#412944] duration-300 ' onClick={handlesidemenu}>Home</NavLink>
