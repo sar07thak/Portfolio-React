@@ -9,10 +9,10 @@ export const Services = () => {
 
   return (
     <>
-    <div className='flex flex-col  py-10 text-white px-16 services-container '>
+    <div className='flex flex-col   text-white px-16 services-container '>
         <h1 className='text-3xl'>Services</h1>
         {/* grid container */}
-        <div className='grid-container grid grid-cols-1  md:grid-cols-2 gap-6 md:p-10 py-5 h-screen'>
+        <div className='grid-container grid grid-cols-1  md:grid-cols-2 gap-6 md:p-10 py-5'>
             {/* container-1 */}
             <div  className='container md:w-full p-5 rounded-lg transition-all ease-in-out duration-300 hover:bg-slate-800 hover:scale-105 ' >
                 <h1 className='text-3xl'>Art Direction</h1>
