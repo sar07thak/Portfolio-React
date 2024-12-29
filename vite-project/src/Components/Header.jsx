@@ -32,7 +32,7 @@ export const Header = () => {
    
   return (
     <>
-    <div className='flex px-16 py-10 justify-between items-center p-4   fixed top-0 left-0 w-full text-white'>
+    <div className='flex px-16 py-10 justify-between items-center p-4 fixed top-0 left-0 w-full text-white'>
         <div className='text-[16px]'>Sarthak.</div>
         <div className=' flex gap-16 text-[16px]'>
             <NavLink to='/' className="hidden md:flex">Home</NavLink>

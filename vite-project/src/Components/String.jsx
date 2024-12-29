@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 
-export const Footer = () => {
+export const String = () => {
   const pathRef = useRef(null);
 
   // Define the initial and final path
