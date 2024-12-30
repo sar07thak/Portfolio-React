@@ -14,7 +14,7 @@ Welcome to my React Portfolio! This project showcases my skills, projects, and e
 
 ## Demo
 
-You can view the live demo of the portfolio [here](https://sarthak-porfolio-7.netlify.app/).
+You can view the live demo of the portfolio [here](https://portfolio-sarthak-7.netlify.app/).
 
 ## Features
 
