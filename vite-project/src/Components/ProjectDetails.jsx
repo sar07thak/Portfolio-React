@@ -20,7 +20,7 @@ export const ProjectDetails = () => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-60 rounded-lg object-cover shadow-lg mt-5"
+        className="w-full h-[350px] rounded-lg object-cover shadow-lg mt-5"
       />
       <p className="mt-5 text-lg">{project.description}</p>
 
