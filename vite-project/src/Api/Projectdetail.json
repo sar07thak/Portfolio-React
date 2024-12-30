@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Amazing Project 1",
+      "description": "This project showcases an innovative approach to web design, focusing on user experience and accessibility."
+    },
+    {
+      "id": 2,
+      "title": "Amazing Project 2",
+      "description": "This project highlights the use of modern technologies to create a responsive and dynamic web application."
+    },
+    {
+      "id": 3,
+      "title": "Amazing Project 3",
+      "description": "This project demonstrates the integration of animations and interactive elements to enhance user engagement."
+    },
+    {
+        "id": 4,
+        "title": "Amazing Project 4",
+        "description": "This project demonstrates the integration of animations and interactive elements to enhance user engagement."
+    },
+    {
+        "id": 5,
+        "title": "Amazing Project 5",
+        "description": "This project demonstrates the integration of animations and interactive elements to enhance user engagement."
+    },
+    {
+        "id": 6,
+        "title": "Amazing Project 6",
+        "description": "This project demonstrates the integration of animations and interactive elements to enhance user engagement."
+    }
+  ]
+  

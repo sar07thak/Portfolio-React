@@ -16,6 +16,23 @@ body{
   /* border: 1px solid red; */
 }
 
+.custom-cursor {
+  position: fixed;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  background-color: rgba(86, 77, 98, 0.8); /* Adjust color as needed */
+  border-radius: 50%;
+  pointer-events: none; /* Prevent cursor from blocking mouse events */
+  transition: background-color 0.3s ease; /* Optional: Add transition for hover effect */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: block; /* Show custom cursor on small screens */
+  }
+}
 
 
 /* :root {
