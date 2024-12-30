@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+import Skills from "./Skills";
 
 export const About = () => {
   useGSAP(() => {
@@ -55,6 +56,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <Skills />
       <div className="heading-container flex flex-col text-white justify-center py-10 px-16 ">
         <h1 className="work-heading md:text-8xl text-6xl ">LET'S WORK</h1>
         <h1 className="work-heading md:text-8xl text-6xl">TOGETHER..</h1>

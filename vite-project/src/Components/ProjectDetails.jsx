@@ -11,7 +11,7 @@ export const ProjectDetails = () => {
     <div className="text-white px-16 py-20">
       <button
         onClick={() => navigate(-1)}
-        className="bg-[#3A2152] text-white text-lg px-4 py-2 rounded-lg hover:bg-[#5a637d] transition-all ease-in-out duration-300 mb-5"
+        className="bg-[#1B1B1B] text-white text-lg px-4 py-2 rounded-lg hover:bg-[#5a637d] transition-all ease-in-out duration-300 mb-5"
       >
         Back to Projects
       </button>
@@ -40,19 +40,14 @@ export const ProjectDetails = () => {
       </ul>
 
       <h3 className="text-2xl mt-5">Technologies Used</h3>
-      <p className="mt-2">HTML, CSS, JavaScript, React, GSAP</p>
+      <p className="mt-2">{project.technologies.join(", ")}</p>
 
-      <blockquote className="border-l-4 border-blue-500 pl-4 italic mt-5">
-        "This project demonstrates the integration of animations and interactive
-        elements to enhance user engagement."
-      </blockquote>
-
-      <h2 className="text-3xl mt-10">GitHub Repository</h2>
+      <h3 className="text-2xl mt-5">GitHub Repository</h3>
       <p className="mt-2">
         You can find the source code for this project on GitHub:
       </p>
       <a
-        href="https://github.com/yourusername/your-repository"
+        href={project.github}
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-500 underline"
