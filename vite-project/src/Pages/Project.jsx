@@ -7,7 +7,7 @@ export const Project = () => {
     <>
       <div className="text-white md:p-20 px-12 py-20 ">
         <div className="flex flex-col justify-center w-full">
-          <h1 className="text-7xl lg:text-8xl font-[600] opacity-100">Blog.</h1>
+          <h1 className="text-7xl lg:text-8xl font-[500] opacity-100">Projects.</h1>
           <div className="mt-10 grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 justify-between gap-10">
             {projects.map((project) => (
               <div key={project.id}>

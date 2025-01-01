@@ -54,9 +54,6 @@ export const Contact = () => {
             <button className="text-white text-md">
               <NavLink to="mailto:sarthak75220@gmail.com">E-mail</NavLink>
             </button>
-            <button className="text-white text-md">
-              <NavLink to="https://www.instagram.com/">Instagram</NavLink>
-            </button>
           </div>
           <hr />
         </div>

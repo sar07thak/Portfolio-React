@@ -41,7 +41,6 @@ const handleMouseMove=() =>{
         <button className="text-white md:text-xl text-sm"><NavLink to="https://www.linkedin.com/in/sarthak-gupta-508176297/">Linkedin</NavLink></button>
         <button className="text-white md:text-xl text-sm"><NavLink to="https://twitter.com/">Twitter</NavLink></button>
         <button className="text-white md:text-xl text-sm"><NavLink to="mailto:sarthak75220@gmail.com">E-mail</NavLink></button>
-        <button className="text-white md:text-xl text-sm"><NavLink to="https://www.instagram.com/">Instagram</NavLink></button>
       </div>
 
     </>

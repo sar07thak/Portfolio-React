@@ -28,7 +28,7 @@ export const About = () => {
       scale: 1.1,
     });
   }, []);
-
+  
   return (
     <>
       <div className="flex flex-col py-10 text-white px-16 ">
