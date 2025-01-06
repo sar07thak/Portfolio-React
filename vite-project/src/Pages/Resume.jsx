@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import asset from "../assets/a.pdf" ;
+import asset from "../assets/resume.pdf" ;
 
 export const Resume = () => {
   return (
